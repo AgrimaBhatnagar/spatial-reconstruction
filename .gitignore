@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Benchmark data
+benchmarks/raw/*
+benchmarks/ground_truth/*
+benchmarks/results/*
+
+# Large files
+*.zip
+*.mp4
+*.mov
+*.avi
+*.ply
+*.pcd
+*.las
+*.laz
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
