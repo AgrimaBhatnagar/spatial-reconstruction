@@ -1,5 +1,30 @@
 ﻿# Spatial Reconstruction â€” Applied AI Engineer Case Study
 
+Multimodal room-scale spatial reconstruction pipeline for consumer
+photo, video and LiDAR capture.
+
+## What this submission demonstrates
+
+- LiDAR depth + pose reconstruction
+- Confidence-aware depth processing
+- Metric point-cloud generation
+- Odometry-based spatial registration
+- ICP-based geometric correction
+- Floor-plan extraction
+- Area and perimeter estimation
+- Ceiling-aware reconstruction
+- Rendered floor-plan output
+- Reproducible benchmark scripts
+- Measurement uncertainty representation
+
+## Quick Start
+
+```powershell
+pip install -r requirements.txt
+python scripts_test_lidar.py
+python scripts_run_all.py
+python scripts_render_plan.py
+
 Local reproducible multimodal spatial-reconstruction baseline for handheld photo, video and LiDAR capture.
 
 ## Architecture
