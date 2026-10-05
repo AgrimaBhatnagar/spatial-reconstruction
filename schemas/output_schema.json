@@ -1,0 +1,14 @@
+﻿{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Spatial Reconstruction Output",
+  "type":"object",
+  "required":["property","rooms","adjacency","capture","status"],
+  "properties":{
+    "property":{"type":"object","required":["id"],"properties":{"id":{"type":"string"}}},
+    "capture":{"type":"object","required":["tier"],"properties":{"tier":{"enum":["photo","video","lidar"]},"source":{"type":"string"}}},
+    "rooms":{"type":"array"},
+    "adjacency":{"type":"array"},
+    "scope_items":{"type":"array"},
+    "status":{"type":"object"}
+  }
+}
